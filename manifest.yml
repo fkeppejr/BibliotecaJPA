@@ -1,0 +1,9 @@
+---
+applications:
+- name: BibliotecaJPA
+  memory: 768M
+  host: BibliotecaFernando
+  domain: mybluemix.net
+  buildpack: BibliotecaJPA
+  services:
+  - compose-for-mysql
