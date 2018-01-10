@@ -12,8 +12,8 @@
 				<jsp:param name="tituloPagina" value="Biblioteca"/>
 				<jsp:param name="titulo" value="Menu principal"/>
 			</jsp:include>
+			
 			<body>
-				
 				
 			<a href="cadastrarLivro.jsp">Cadastrar Livro</a><br>
 			<a href="listarLivros.jsp">Listar Livros</a><br>
