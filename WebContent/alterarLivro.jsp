@@ -43,7 +43,7 @@
 					<INPUT TYPE='NUMBER' NAME='quantidade' VALUE='${livro.quantidade}' SIZE='50'>
 					<BR>
 					<BR>
-					<INPUT TYPE='SUBMIT' NAME="btnSalvar" VALUE="Atiualizar">	
+					<INPUT TYPE='SUBMIT' NAME="btnSalvar" VALUE="Atualizar">	
 				</FORM>
 				<br><A HREF="menu.jsp">Voltar</A>
 				
@@ -55,7 +55,7 @@
 	
 		</c:when>
 		<c:otherwise>
-			<font color='red'>Você não está logado</font>
+			<font color='red'>Você não está logado.</font>
 			<br><a href='login.jsp'>Ir para o login</a>
 		</c:otherwise>
 	</c:choose>
